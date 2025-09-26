@@ -4,4 +4,4 @@ En  el docker-compose levanta dos entornos completos separados en la misma máqu
 
 elegimos mysql, simplemente porque era una BD conocida que usamos en distintas materias. pero ademas MySQL cuenta con imágenes oficiales en Docker Hub, lo que facilita su despliegue y actualización.
 
-las variables de entorno son 3: la url, 
+las variables de entorno son 2: la url de la BD y el environment, cada ENV tiene su propia BD que es un volume de Mysql
